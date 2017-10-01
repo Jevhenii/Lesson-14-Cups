@@ -1,0 +1,145 @@
+body{
+
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.container{
+	width: 1200px;
+    height: 600px;
+    background-color:#FADC7E;
+    margin:auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    display:flex;
+    color:#2F2F2F;
+     justify-content: center;
+      align-items: center;
+      justify-content:space-around;
+}
+.box{
+	background-color:#FCFCFC;
+	display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.one{
+	width: 360px;
+	height: 441px;
+	background-image:url(img/Bronze.png);
+	display: flex;
+    flex-direction: column;
+     justify-content:space-around;
+
+
+}
+
+.two{
+	width: 361px;
+	height: 500px;
+	background-image:url(img/Gold.png);
+	display: flex;
+    flex-direction: column;
+     justify-content:space-around;
+
+}
+
+.three{
+	width: 361px;
+	height: 441px;
+	background-image:url(img/Silver.png);
+	display: flex;
+    flex-direction: column;
+     justify-content:space-around;
+
+}
+
+.color{
+	font-family: Miso;
+	font-size: 56px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top:200px;
+	
+
+}
+.bax{
+	
+	font-family: Miso;
+	color:  #02995b;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 24px;
+
+	
+}
+.cup{
+	font-family: Lato;
+	color:  #333333;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 26px;
+}
+span{
+	margin-left:35px;
+}
